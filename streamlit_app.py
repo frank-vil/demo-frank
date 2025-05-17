@@ -28,5 +28,3 @@ st.dataframe(df_tienda,
 sales_columns = st.columns(2)
 sales_min = sales_columns[0].number_input('Min Sal', value=df_tienda['Sales'].min() )
 sales_max = sales_columns[1].number_input("Max Sal", value=df_tienda['Sales'].max() )
-
-
